@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour {
 	void Start () {
 		combos = new string[] { 
 			"RU", "RR", "RD",
-			"LU", "LR", "LD",
+			"LU", "LL", "LD",
 			"UU", "DD",
 			"UDRU", "UDRR", "UDRD"
 		};

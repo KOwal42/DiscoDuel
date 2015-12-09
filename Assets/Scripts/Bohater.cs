@@ -14,7 +14,7 @@ using UnityEngine;
 
     class Bohater
     {
-        public Bohater(int hp, int atak, int obrona, int wartosc, specjal specjalny)
+        public Bohater(int hp=100, int atak=10, int obrona=5, int wartosc=0, specjal specjalny=specjal.nic)
         {
             HP = hp;
             Atak = atak;

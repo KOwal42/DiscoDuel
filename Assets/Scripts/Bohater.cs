@@ -11,9 +11,10 @@ using UnityEngine;
            heal=2,
            stun=3
        }
-
+        
     class Bohater
     {
+        
         public Bohater(int hp=100, int atak=10, int obrona=5, int wartosc=0, specjal specjalny=specjal.nic)
         {
             HP = hp;
